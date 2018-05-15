@@ -59,7 +59,7 @@ GitHubActivity.feed({
 
 ## Credits
 
-* [MD5 Methods](http://www.myersdaily.org/joseph/javascript/md5-text.html)
+* [MD5 Methods](https://www.myersdaily.org/joseph/javascript/md5-text.html)
 
 ## Fork and Enjoy
 

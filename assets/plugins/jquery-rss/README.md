@@ -17,7 +17,7 @@ Chances are that you are experiencing a downtime on feedrapp.info. Please update
         <script src="src/jquery.rss.js"></script>
         <script>
           jQuery(function($) {
-            $("#rss-feeds").rss("http://feeds.feedburner.com/premiumpixels")
+            $("#rss-feeds").rss("https://feeds.feedburner.com/premiumpixels")
           })
         </script>
       </head>
@@ -26,7 +26,7 @@ Chances are that you are experiencing a downtime on feedrapp.info. Please update
       </body>
     </html>
 
-Demo link for above code: http://embed.plnkr.co/WQRoCYLld162uplnz1rc/preview
+Demo link for above code: https://embed.plnkr.co/WQRoCYLld162uplnz1rc/preview
 
 Note: Moment.js is _optional_. If you include it, jquery.rss will use it to format dates.
 If you do not want to include Moment.js, you may opt for providing your own date formatting function, or for not formatting dates at all.
@@ -34,7 +34,7 @@ If you do not want to include Moment.js, you may opt for providing your own date
 ## Options
 
     $("#rss-feeds").rss(
-      "http://feeds.feedburner.com/premiumpixels",
+      "https://feeds.feedburner.com/premiumpixels",
       {
         // how many entries do you want?
         // default: 4
@@ -78,7 +78,7 @@ If you do not want to include Moment.js, you may opt for providing your own date
 
         // formats the date with moment.js (optional)
         // default: 'dddd MMM Do'
-        // valid values: see http://momentjs.com/docs/#/displaying/
+        // valid values: see https://momentjs.com/docs/#/displaying/
         dateFormat: 'MMMM Do, YYYY',
 
         // localizes the date with moment.js (optional)
@@ -120,7 +120,7 @@ If you do not want to include Moment.js, you may opt for providing your own date
 
 Since version 3.0.0 the plugin is no longer using the Google Feed API but a drop-in replacement called [feedr](https://github.com/sdepold/feedr). That server is currently running on Heroku and might have some downtimes, interruptions or unexpected issues. While I will try to keep those problems as rare as possible, it can totally happen from time to time. I might move the service to some other provide or even improve the infrastructure.
 
-If you don't want to rely on the [provided server](http://feedrapp.info) and instead run your own version, you can just download feedr, install the dependencies and run it. As written above, you can specify the host which is used to parse the feeds with the `host` option.
+If you don't want to rely on the [provided server](https://feedrapp.info) and instead run your own version, you can just download feedr, install the dependencies and run it. As written above, you can specify the host which is used to parse the feeds with the `host` option.
 
 ## Templating
 
@@ -201,14 +201,14 @@ This will request 100 entries via the Feed API and renders the first 10 matching
 
 ## Testing
 
-The test suite is using BusterJS. In order to successfully run the tests you will need [phantomjs](http://phantomjs.org/).
+The test suite is using BusterJS. In order to successfully run the tests you will need [phantomjs](https://phantomjs.org/).
 If that is installed you only have to run `npm test`.
 
 ## Authors/Contributors
 
-- DaWanda GmbH ([Website](http://dawanda.com))
-- Sascha Depold ([Twitter](http://twitter.com/sdepold) | [Github](http://github.com/sdepold) | [Website](http://depold.com))
-- Steffen Schröder  ([Twitter](http://twitter.com/ChaosSteffen) | [Github](http://github.com/ChaosSteffen) | [Website](http://schroeder-blog.de))
+- DaWanda GmbH ([Website](https://dawanda.com))
+- Sascha Depold ([Twitter](https://twitter.com/sdepold) | [Github](https://github.com/sdepold) | [Website](https://depold.com))
+- Steffen Schröder  ([Twitter](https://twitter.com/ChaosSteffen) | [Github](https://github.com/ChaosSteffen) | [Website](https://schroeder-blog.de))
 
 ## Misc
 

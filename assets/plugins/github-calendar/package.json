@@ -19,7 +19,7 @@
     "calendar",
     "embed"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-calendar/issues"
@@ -58,7 +58,7 @@
         }
       },
       {
-        "p": "[Here](http://jsbin.com/wewihogevu/edit?html,output) you can see this example in action."
+        "p": "[Here](https://jsbin.com/wewihogevu/edit?html,output) you can see this example in action."
       }
     ],
     "thanks": {
@@ -72,7 +72,7 @@
         "p": "Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:"
       },
       {
-        "p": "[![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)"
+        "p": "[![](https://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)"
       }
     ],
     "title": "github-calendar.js",

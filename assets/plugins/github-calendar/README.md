@@ -4,7 +4,7 @@ Embed your GitHub contributions calendar anywhere.
 
 Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:
 
-[![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)
+[![](https://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)
 
 ## Installation
 
@@ -33,7 +33,7 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 </script>
 ```
 
-[Here](http://jsbin.com/wewihogevu/edit?html,output) you can see this example in action.
+[Here](https://jsbin.com/wewihogevu/edit?html,output) you can see this example in action.
 
 ## Documentation
 
@@ -76,9 +76,9 @@ If you are using this library in one of your projects, add it in this list. :spa
 [MIT][license] © [Ionică Bizău][website]
 
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
+[donate-now]: https://i.imgur.com/6cMbHOC.png
 
-[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2016#license-mit
-[website]: http://ionicabizau.net
+[license]: https://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2016#license-mit
+[website]: https://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
