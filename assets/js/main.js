@@ -27,4 +27,9 @@ jQuery(document).ready(function($) {
     GitHubActivity.feed({ username: "viniciustaveira", selector: "#ghfeed" });
 
 
+    /* Dates work experience */
+    var sinceWork = 2009;
+    var actualDate = new Date().getFullYear();
+    var howManyYears = actualDate - sinceWork;
+    $('#yearsexperience').html(howManyYears + ' anos de');
 });
