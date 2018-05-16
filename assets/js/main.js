@@ -31,5 +31,5 @@ jQuery(document).ready(function($) {
     var sinceWork = 2009;
     var actualDate = new Date().getFullYear();
     var howManyYears = actualDate - sinceWork;
-    $('#yearsexperience').html(howManyYears + ' anos de');
+    $('#yearsexperience').html(howManyYears);
 });

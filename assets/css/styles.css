@@ -86,6 +86,32 @@ a.btn-cta-secondary:hover,
   border: 1px solid #3893bd;
   color: #fff;
 }
+a.btn-culture-info,
+.btn-culture-info {
+  color: #9ebeca;
+}
+a.btn-culture-info:hover,
+.btn-culture-info:hover {
+  color: #283e4a;
+}
+a.btn-culture-info-here,
+.btn-culture-info-here {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: #283e4a;
+}
+a.btn-culture-info img,
+a.btn-culture-info-here img{
+  width: 28px;
+  padding: 0 3px 2px 0;  
+}
+a.btn-culture-info{
+  opacity: 0.7;
+}
+a.btn-culture-info:hover{
+  opacity: 1;
+}
 .text-highlight {
   color: #32383e;
 }
@@ -124,8 +150,16 @@ iframe {
   margin-top: 60px;
   font-weight: bold;
 }
+.header .btn.btn-mcp {
+  margin-top: 0px !important;
+  font-weight: bold;
+}
 .header .profile-image {
-  margin-right: 30px;
+  margin-right: 30px;  
+}
+.header .profile-country {  
+  width: 170px;
+  text-align: center;
 }
 .header .profile-content .name {
   color: #49515a;
@@ -525,6 +559,10 @@ iframe {
   .header .profile-content {
     float: none !important;
     text-align: center;
+  }
+  .header .profile-country {
+    float: none !important;
+    margin: 0 auto;
   }
   .header .btn {
     margin-top: 30px;
