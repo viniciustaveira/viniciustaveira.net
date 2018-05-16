@@ -547,8 +547,8 @@ iframe {
 .footer .fa-heart {
   color: #737373;
 }
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+/* Extra small devices (phones, less than 991px) */
+@media (max-width: 991px) {
   .header {
     text-align: center;
   }
@@ -560,9 +560,11 @@ iframe {
     float: none !important;
     text-align: center;
   }
-  .header .profile-country {
-    float: none !important;
-    margin: 0 auto;
+  .container .profile-country {
+    width: 100%;
+    text-align: center;
+    float: none !important;    
+    margin: 0 auto;    
   }
   .header .btn {
     margin-top: 30px;
